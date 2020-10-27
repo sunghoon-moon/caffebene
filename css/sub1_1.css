@@ -1,0 +1,139 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    font-family: 'Noto Sans KR', sans-serif; 
+    background: #fff;
+    font-weight: 16px;
+    color: #3a466a;
+    }
+#brandstory {
+    margin: 0 auto;
+    width: 1920px; height: 500px;
+    background: url(../images/img-01.jpg);
+}
+
+
+
+/* lnb */
+#lnb {
+    position: relative;
+    width: 750px;
+    height: 80px;
+    margin: 0 auto;
+    /* outline: 1px solid green; */
+    
+}
+#lnb > .lnb {
+    position: absolute;
+    
+}
+#lnb > .lnb > li {
+    float: left;
+    color: #000;
+    width: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 80px;
+    /* outline: 1px solid red; */
+}
+#lnb > .lnb > li > a {
+    display: block;
+    color: #35302d;
+}
+#lnb > .lnb > li > a.active {
+    color: #00a5b1;
+    border-bottom: 5px solid #00a5b1;
+}
+.sub {
+    margin: 0 auto;
+    width: 1200px;
+    height: 80px;
+}
+.sub > p {
+    float: right;
+    font-size: 20px;
+    line-height: 80px;
+}
+.sub > p > a {
+    color: #35302d;
+}
+
+
+
+
+#content_t {
+    margin: 0 auto;
+    width: 1200px; height: 1140px;
+}
+/* 단락1 */
+#content_t > .main1_text {
+    padding: 150px 0 30px 80px;
+    width: 1200px; height: 240px;
+}
+#content_t > .main1_text > h1 { font-size: 30px; font-weight: 700; }
+#content_t > .main1_text > h4 { font-weight: 300; }
+#content_t .mind01 {
+    width: 1200px; height: 350px;
+    margin-bottom: 35px;
+    position: relative;
+}
+#story01 > .mind01 > img {
+    position: absolute;
+    left: 80px;
+}
+#story01 > .mind01 > p {
+    position: absolute;
+    left: 620px; top: 90px;
+    font-weight: 600;
+}
+#story01 > .mind01 > p:last-child {
+    position: absolute;
+    left: 620px; top: 200px;
+    font-weight: 400;
+}
+/* 단락2 */
+#story01 > .mind02 {
+    width: 1200px; height: 350px;
+    position: relative;
+}
+#story01 > .mind02 > img {
+    position: absolute;
+    right: 80px;
+}
+#story01 > .mind02 > p {
+    position: absolute;
+    left: 80px; top: 100px;
+}
+#story01 > .mind02 > p:nth-child(1) { font-weight: 500; }
+#story01 > .mind02 > p:nth-child(2) { top: 160px; }
+#story01 > .mind02 > p:nth-child(3) { top: 240px; }
+/* 단락3 */
+#benecat {
+    width: 1920px; height: 350px;
+    margin: 0 auto;
+    display: block;
+}
+/* 단락4 */
+#content_b {
+    width: 1200px; height: 650px;
+    margin: 0 auto; 
+    margin-top: 200px; margin-bottom: 250px;
+    position: relative;
+}
+#content_b > img {
+    position: absolute;
+    left: 130px;
+}
+#content_b .cat_text {
+    position: absolute;
+    left: 620px;
+}
+.cat_text > p { padding: 15px 0 10px; }
+.cat_text > p:last-child { 
+    font-weight: 200; 
+    font-style: italic; 
+    font-size: small;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>매장찾기</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> 
+    <link rel="stylesheet" href="./css/sub3_2.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div id="header_wrap">
+        <div id="gnb_bg"></div>
+        <header id="main_header">
+            <h1 class="logo"><a href="./"><img src="./images/logo.png" alt="CAFFEBENE"></a></h1>
+            <nav id="gnb">
+                <ul class="depth1">
+                    <li><a href="./sub1_1.html">CAFFEBENE</a>
+                        <ul class="depth2">
+                            <li><a href="./sub1_1.html">브랜드 스토리</a></li>
+                            <li><a href="#">카페베네 원두</a></li>
+                            <li><a href="#">카페베네 소식</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sub2_1.html">MENU</a>
+                        <ul class="depth2">
+                            <li><a href="./sub2_1.html">신메뉴</a></li>
+                            <li><a href="#">커피</a></li>
+                            <li><a href="#">음료</a></li>
+                            <li><a href="#">디저트</a></li>
+                            <li><a href="#">MD상품</a></li>
+                            <li><a href="#">Retail</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./sub3_2.html">STORE</a>
+                        <ul class="depth2">
+                            <li><a href="#">가맹 문의</a></li>
+                            <li><a href="./sub3_2.html">매장 찾기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">MEMBERSHIP</a>
+                        <ul class="depth2">
+                            <li><a href="#">등급&혜택</a></li>
+                            <li><a href="#">가입방법안내</a></li>
+                            <li><a href="#">서비스</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">CONTENTS</a>
+                        <ul class="depth2">
+                            <li><a href="#">매거진</a></li>
+                            <li><a href="#">뉴스</a></li>
+                            <li><a href="#">이벤트</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="foundation_btn">가맹문의</a>
+        </header>
+    </div>
+
+    <!-- main_visual -->
+    <section id="main_visual">
+        <header>
+            <h2>매장 찾기</h2>
+            <p>Caffebene near you</p>
+        </header>
+    </section>
+    
+    <nav id="lnb">
+        <ul class="lnb">
+            <li><a href="javascript:click()">가맹 문의</a></li>
+            <li><a href="javascript:click()" class="active">매장 찾기</a></li>
+        </ul>
+    </nav>
+
+    <div class="line"></div>
+
+    <div class="sub">
+        <p>
+            <a href="#">HOME&nbsp;&nbsp;&nbsp;</a>>
+            <a href="#">&nbsp;&nbsp;&nbsp;STORE&nbsp;&nbsp;&nbsp;</a> >
+            <a href="#">&nbsp;&nbsp;&nbsp;매장 찾기</a>
+        </p>
+    </div>
+    
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143153.357155651!2d126.83530265399652!3d37.548650825488174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd9e1f5ab048ac82d!2z7Lm07Y6Y67Kg64SkIOy2qeustOuhnOyXreygkA!5e0!3m2!1sko!2skr!4v1603349717186!5m2!1sko!2skr" width="1920" height="800" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        <div class="search">
+            <div class="header">
+                <h2>매장찾기</h2>
+            </div>
+            <div class="section">
+                <ul class="list">
+                    <li><a href="javascript:click()" class="active">빠른 검색</a></li>
+                    <li><a href="javascript:click()">지역 검색</a></li>
+                </ul>
+                <form>
+                    <input type="text" placeholder="  매장명 또는 주소를 입력하세요.">
+                </form>
+                <div class="bene">
+                    <h3>카페베네 충무로역점</h3>
+                    <img src="./images/parking.png" alt="parking">
+                    <img src="./images/wifi.png" alt="wifi">
+                    <img src="./images/bike.png" alt="bike">
+                    <p>서울특별시 중구 필동 퇴계로 189</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="search">
+        <div class="header">
+            <h2>매장찾기</h2>
+        </div>
+        <div class="section">
+            <ul class="list">
+                <li><a href="javascript:click()" class="active">빠른 검색</a></li>
+                <li><a href="javascript:click()">지역 검색</a></li>
+            </ul>
+            <form>
+                <input type="text" placeholder="  매장명 또는 주소를 입력하세요.">
+            </form>
+            <div class="bene">
+                <h3>카페베네 충무로역점</h3>
+                <img src="./images/parking.png" alt="parking">
+                <img src="./images/wifi.png" alt="wifi">
+                <img src="./images/bike.png" alt="bike">
+                <p>서울특별시 중구 필동 퇴계로 189</p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Footer -->
+    <div id="footer_wrap">
+        <footer id="main_footer">
+            <div id="footer_logo">
+                <img src="./images/footer_logo.png" alt="CAFFEBENE">
+            </div>
+            <div id="footer_txt">
+                <ul id="footer_menu">
+                    <li><a href="#">오시는 길</a></li>
+                    <li><a href="#">제휴문의</a></li>
+                    <li><a href="#" class="strong">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                </ul>
+                <ul id="footer_menu2">
+                    <li>서울시 성동구 상원1길 25&nbsp;&nbsp; | &nbsp;&nbsp;</li>
+                    <li>대표이사 박혜경</li>
+                    <li>사업자등록번호 20-86-29161&nbsp;&nbsp; | &nbsp;&nbsp;</li>
+                    <li><a href="mailto:benecs@caffebene.co.kr">benecs@caffebene.co.kr</a></li>
+                </ul>
+                <p class="copyright">Copyright &copy; by Caffebene, All rights reserved.</p>
+            </div>
+            <div id="cs">
+                <img src="./images/cs_icon.png" alt="cs">
+                <div id="cs_num">
+                    <p>CAFFEBENE 고객센터</p>
+                    <p>1688-4666</p>
+                </div>
+                <div id="footer_sns">
+                    <a href="https://www.facebook.com/caffebene" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/caffebene_official/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCQ7MW5IpWOL9LwQqr_AWQ9A/featured" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><img src="./images/app_icon.png" alt="app"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
