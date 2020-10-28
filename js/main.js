@@ -85,3 +85,9 @@ $(document).ready(function(){
     ]
   });
 });
+
+
+// 지도
+$(function() {
+  $('#map > .search').draggable();
+});
