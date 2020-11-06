@@ -17,14 +17,16 @@ li {list-style-type: none;}
 /* banner */
 #visual {
     position: relative;
-    max-width: 1920px;
+    /* max-width: 1920px; */
+    width: 100%;
     min-width: 1200px;
-    height: 500px;
+    height: 300px;
     background-image: url(../images/menu_bg.jpg);
     margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
+    overflow: hidden;
+    background-position: center;
 }
 #visual > .visual_text {
     position: relative;
@@ -35,37 +37,38 @@ li {list-style-type: none;}
 }
 #visual h2 {
     width: 1200px;
-    line-height: 65px;
+    line-height: 52px;
     position: relative;
     color: #3a466a;
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 500;
     text-transform: uppercase;
     display: block;
     /* outline: 1px solid red; */
     margin-left: 110px;
-    padding-top: 130px;
+    padding-top: 70px;
 }
 #visual p {
     width: 1200px;
     position: relative;
     color: #3a466a;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin-left: 115px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 /* lnb */
 #lnb {
     position: relative;
     width: 1200px;
-    height: 80px;
+    height: 60px;
     margin: 0 auto;
     /* outline: 1px solid red; */
 }
 .line {
-    width: 1920px;
+    width: 100%;
+    min-width: 1200px;
     margin: 0 auto;
     border-top: 5px solid #f2f2f2;
     /* outline: 1px solid red; */
@@ -80,12 +83,14 @@ li {list-style-type: none;}
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    line-height: 80px;
+    line-height: 60px;
     /* outline: 1px solid red; */
 }
 #lnb > .lnb > li > a {
     display: block;
     color: #35302d;
+    font-size: 15px;
+    font-weight: 500;
 }
 #lnb > .lnb > li > a.active {
     color: #00a5b1;
@@ -99,9 +104,10 @@ li {list-style-type: none;}
     position: relative;
     text-transform: uppercase;
     font-size: 20px;
-    padding: 30px;
+    padding: 20px;
     /* outline: 1px solid red; */
     text-align: right;
+    font-size: 12px;
 }
 
 /* 신메뉴 배너 */

@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>매장찾기</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <title>음료</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- header + footer -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/header+footer/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> 
-    <link rel="stylesheet" href="./css/sub3_2.css">
     <link rel="stylesheet" href="./css/header_footer.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
   />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script
     src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
     integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
     crossorigin="anonymous"></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="./js/main.js"></script>
+    
+
+    <!-- sub2_1(신메뉴페이지) -->
+    <link rel="stylesheet" href="./css/sub2_1.css">
 </head>
 <body>
     <!-- header -->
@@ -33,8 +39,8 @@
                     <li><a href="./sub1_1.html">CAFFEBENE</a>
                         <ul class="depth2">
                             <li><a href="./sub1_1.html">브랜드 스토리</a></li>
-                            <li><a href="#">카페베네 원두</a></li>
-                            <li><a href="#">카페베네 소식</a></li>
+                            <li><a href="./sub1_1.html">카페베네 원두</a></li>
+                            <li><a href="./sub1_1.html">카페베네 소식</a></li>
                         </ul>
                     </li>
                     <li><a href="./sub2_1.html">MENU</a>
@@ -74,78 +80,75 @@
         </header>
     </div>
 
-    <!-- main_visual -->
+    <!-- sub_2 신메뉴 -->
     <section id="visual">
         <div class="visual_text">
-            <h2>매장찾기</h2>
-            <p>Caffebene near you</p>
+            <h2>caffebene's<br>seasonal menu </h2>
+            <p>늘 새롭고 맛있는 카페베네의 신메뉴</p>
         </div>
     </section>
-    
+
+    <!-- lnb -->
     <nav id="lnb">
         <ul class="lnb">
-            <li><a href="javascript:click()">가맹 문의</a></li>
-            <li><a href="javascript:click()" class="active">매장 찾기</a></li>
+            <li><a href="./sub2_1.html">신메뉴</a></li>
+            <li><a href="./sub2_1_1.html">커피</a></li>
+            <li><a href="./sub2_1_2.html" class="active">음료</a></li>
+            <li><a href="./sub2_1_3.html">디저트</a></li>
+            <li><a href="#">MD</a></li>
+            <li><a href="#">Retail</a></li>
         </ul>
     </nav>
 
     <div class="line"></div>
 
+    <!-- breadcrumb -->
     <div class="location">
         <span>home &nbsp;</span> &gt;
-        <span>&nbsp; store &nbsp;</span> &gt;
-        <span>&nbsp; 매장 찾기</span>
+        <span>&nbsp; menu &nbsp;</span> &gt;
+        <span>&nbsp; 음료</span>
     </div>
-    
-    <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143153.357155651!2d126.83530265399652!3d37.548650825488174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd9e1f5ab048ac82d!2z7Lm07Y6Y67Kg64SkIOy2qeustOuhnOyXreygkA!5e0!3m2!1sko!2skr!4v1603349717186!5m2!1sko!2skr" width="100%" height="800" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-        <div class="search">
-            <div class="header">
-                <h2>매장찾기</h2>
-            </div>
-            <div class="section">
-                <ul class="list">
-                    <li><a href="javascript:click()" class="active">빠른 검색</a></li>
-                    <li><a href="javascript:click()">지역 검색</a></li>
-                </ul>
-                <form>
-                    <input type="text" placeholder="  매장명 또는 주소를 입력하세요.">
-                </form>
-                <div class="bene">
-                    <h3>카페베네 충무로역점</h3>
-                    <img src="./images/parking.png" alt="parking">
-                    <img src="./images/wifi.png" alt="wifi">
-                    <img src="./images/bike.png" alt="bike">
-                    <p>서울특별시 중구 필동 퇴계로 189</p>
+    <!-- newmenu banner -->
+    <!-- <section id="newmenu_banner">
+        <img src="./images/newmenu_banner.png" alt="신메뉴배너">
+    </section> -->
+
+    <!-- newmenu list -->
+    <section id="newmenu">
+        <ul class="menu_pic">
+            <li><a href="#"><img src="./images/우리쌀 라떼(iced)_조정.png" alt="우리쌀라떼_iced">
+                <div class="menu_text">
+                    <span class="name">우리쌀 라떼(ICED)</span>
+                    <span class="price">5,400원</span>
                 </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- <div class="search">
-        <div class="header">
-            <h2>매장찾기</h2>
-        </div>
-        <div class="section">
-            <ul class="list">
-                <li><a href="javascript:click()" class="active">빠른 검색</a></li>
-                <li><a href="javascript:click()">지역 검색</a></li>
-            </ul>
-            <form>
-                <input type="text" placeholder="  매장명 또는 주소를 입력하세요.">
-            </form>
-            <div class="bene">
-                <h3>카페베네 충무로역점</h3>
-                <img src="./images/parking.png" alt="parking">
-                <img src="./images/wifi.png" alt="wifi">
-                <img src="./images/bike.png" alt="bike">
-                <p>서울특별시 중구 필동 퇴계로 189</p>
-            </div>
-        </div>
-    </div> -->
+            </a>
+            </li>
+            <li><a href="#"><img src="./images/우리쌀 라떼(hot)_조정.png" alt="우리쌀라떼_hot">
+                <div class="menu_text">
+                    <span class="name">우리쌀 라떼(HOT)</span>
+                    <span class="price">5,400원</span>
+                </div>
+            </a>
+            </li>
+            <li><a href="#"><img src="./images/붕어팥라떼(iced)_조정.png" alt="붕어팥라떼_iced">
+                <div class="menu_text">
+                    <span class="name">붕어팥 라떼(ICED)</span>
+                    <span class="price">5,800원</span>
+                </div>
+            </a>
+            </li>
+            <li><a href="#"><img src="./images/붕어팥라떼(hot)_조정.png" alt="붕어팥라떼_hot">
+                <div class="menu_text">
+                    <span class="name">붕어팥 라떼(HOT)</span>
+                    <span class="price">5,800원</span>
+                </div>
+            </a>
+            </li>
+        </ul>
+    </section>
 
-    <!-- Footer -->
+    <!-- footer -->
     <div id="footer_wrap">
         <footer id="main_footer">
             <div id="footer_logo">
@@ -160,7 +163,7 @@
                 </ul>
                 <ul id="footer_menu2">
                     <li>서울시 성동구 상원1길 25&nbsp;&nbsp; | &nbsp;&nbsp;</li>
-                    <li>대표이사 박혜경</li>
+                    <li>대표이사 박혜경</li><br>
                     <li>사업자등록번호 20-86-29161&nbsp;&nbsp; | &nbsp;&nbsp;</li>
                     <li><a href="mailto:benecs@caffebene.co.kr">benecs@caffebene.co.kr</a></li>
                 </ul>
@@ -173,13 +176,13 @@
                     <p>1688-4666</p>
                 </div>
                 <div id="footer_sns">
-                    <a href="https://www.facebook.com/caffebene" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/caffebene_official/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UCQ7MW5IpWOL9LwQqr_AWQ9A/featured" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
                     <a href="#"><img src="./images/app_icon.png" alt="app"></a>
                 </div>
             </div>
         </footer>
-    </div>
+      </div>
 </body>
 </html>
